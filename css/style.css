@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTM1IHHXT-7Xav7FOtGJokBxQk3k7km6FuRw&s");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main:hover {
+  color: pink;
+  font-size: 25px;
+  box-shadow: 0 0 11px 11px rgba(255, 0, 0, 1);
+}
+
+.main {
+  width: 50%;
+  border: 2px solid purple;
+  display: inline-block;
+  background-color: pink;
+  color: white;
+  padding: 10px;
+  margin-bottom: 5vh;
+}
+#lines {
+  margin-bottom: 1lh;
+}
+b + img {
+  border-radius: 50%;
+  height: 1lh;
+}
+li {
+  border: 1px solid purple;
+}
